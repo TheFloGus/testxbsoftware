@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="src/style.css">
+	<script src="src/index.js" defer></script>
+	<title>Exgange</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="user-input">
+			<input type="number" class="user-amount" min="0" value="1" />
+			<select class="user-currency">
+				<option class="currency-option" value="BYN">BYN</option>
+				<option class="currency-option" value="USD" selected>USD</option>
+				<option class="currency-option" value="EUR">EUR</option>
+				<option class="currency-option" value="CNY">CNY</option>
+				<option class="currency-option" value="RUB">RUB</option>
+			</select>
+		</div>
+		<ul class="currency-list">
+			<li class="currency-item" id="BYN">
+				<p class="currency-name">BYN</p>
+				<p class="currency-result">0</p>
+			</li>
+			<li class="currency-item" id="USD">
+				<p class="currency-name">USD</p>
+				<p class="currency-result">0</p>
+			</li>
+			<li class="currency-item" id="EUR">
+				<p class="currency-name">EUR</p>
+				<p class="currency-result">0</p>
+			</li>
+			<li class="currency-item" id="CNY">
+				<p class="currency-name">CNY</p>
+				<p class="currency-result">0</p>
+			</li>
+			<li class="currency-item" id="RUB">
+				<p class="currency-name">RUB</p>
+				<p class="currency-result">0</p>
+			</li>
+
+		</ul>
+	</div>
+
+</body>
+
+</html>
